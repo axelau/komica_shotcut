@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    /* 調整格子的樣式和佈局 */
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .grid-item {
+        flex-basis: 33.33%;
+        margin: 10px;
+        padding: 20px;
+        background-color: lightgray;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    @media (max-width: 1000px) {
+        .grid-item {
+            flex-basis: 50%;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .grid-item {
+            flex-basis: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="grid-item" onclick="window.location.href='https://sora.komica1.org/79/index.htm'">新番捏他</div>
+        <div class="grid-item" onclick="window.location.href='https://sora.komica1.org/78/index.htm'">新番實況</div>
+        <div class="grid-item" onclick="window.location.href='https://grea.komica1.org/09/index.htm'">模型</div>
+        <div class="grid-item" onclick="window.location.href='https://grea.komica1.org/61/index.htm'">鋼普拉</div>
+        <div class="grid-item" onclick="window.location.href='https://grea.komica1.org/15/index.htm'">蘿蔔</div>
+        <div class="grid-item" onclick="window.location.href='https://grea.komica1.org/73/index.htm'">遊戲王</div>
+        <div class="grid-item" onclick="window.location.href='https://sora.komica1.org/19/index.htm'">男性角色</div>
+        <div class="grid-item" onclick="window.location.href='https://tomo.komica1.org/38/index.htm'">女性角色</div>
+        <div class="grid-item" onclick="window.location.href='https://sora.komica1.org/80/index.htm'">動畫</div>
+        <div class="grid-item" onclick="window.location.href='https://sora.komica1.org/81/index.htm'">漫畫</div>
+    </div>
+</body>
+</html>
